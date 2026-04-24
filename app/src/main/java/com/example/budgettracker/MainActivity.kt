@@ -16,6 +16,8 @@ import com.example.budgettracker.ui.theme.BudgetTrackerTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        val filtered = expenseDao.getExpensesByDate(start, end)
+        val totals = expenseDao.getCategoryTotals(start, end)
         val db = Room.databaseBuilder(
             applicationContext,
             AppDatabase::class.java,
