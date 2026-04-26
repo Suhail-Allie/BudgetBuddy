@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">BudgetTracker</string>
+=======
+    <string name="app_name">BudgetBuddy</string>
+>>>>>>> c80a1a945eaf2c32530012ce19303a1b7f15b930
 </resources>
