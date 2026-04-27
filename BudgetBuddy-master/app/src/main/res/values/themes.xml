@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BudgetTracker" parent="android:Theme.Material.Light.NoActionBar" />
+=======
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BudgetBuddy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BudgetBuddy" parent="Base.Theme.BudgetBuddy" />
+>>>>>>> c80a1a945eaf2c32530012ce19303a1b7f15b930
+</resources>

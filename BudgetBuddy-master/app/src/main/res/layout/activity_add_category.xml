@@ -1,0 +1,28 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="16dp"
+    ...>
+
+<EditText
+android:id="@+id/etName"
+android:hint="Category Name" />
+
+<EditText
+android:id="@+id/etMin"
+android:hint="Minimum Budget"
+android:inputType="numberDecimal" />
+
+<EditText
+android:id="@+id/etMax"
+android:hint="Maximum Budget"
+android:inputType="numberDecimal" />
+
+<EditText
+android:id="@+id/etLimit"
+android:hint="Optional Limit"
+android:inputType="numberDecimal" />
+
+<Button
+android:id="@+id/btnSave"
+android:text="Save Category"/>
+    </LinearLayout>
