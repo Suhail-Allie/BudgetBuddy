@@ -21,7 +21,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Other screens -->
         <!-- updated xml code -->
         <activity
             android:name=".RegisterActivity"
