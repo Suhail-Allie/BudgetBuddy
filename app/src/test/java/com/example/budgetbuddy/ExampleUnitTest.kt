@@ -15,3 +15,8 @@ class ExampleUnitTest {
         assertEquals(4, 2 + 2)
     }
 }
+@Test
+fun expenseCalculation_isCorrect(): Unit {
+    val total = 100 + 250
+    assertEquals(350, total)
+}
