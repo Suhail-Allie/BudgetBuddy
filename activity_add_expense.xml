@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp">
+    <LinearLayout
+        android:orientation="vertical">
+        <EditText android:id="@+id/etAmount" android:hint="Amount"/>
+        <EditText android:id="@+id/etDate" android:hint="Date"/>
+        <EditText android:id="@+id/etStartTime" android:hint="Start Time"/>
+        <EditText android:id="@+id/etEndTime" android:hint="End Time"/>
+        <EditText android:id="@+id/etDescription" android:hint="Description"/>
+        <Spinner android:id="@+id/spCategory"/>
+        <ImageView android:id="@+id/imgReceipt"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+        <Button android:id="@+id/btnUpload" android:text="Upload"/>
+        <Button android:id="@+id/btnSave" android:text="Save"/>
+    </LinearLayout>
+</ScrollView>

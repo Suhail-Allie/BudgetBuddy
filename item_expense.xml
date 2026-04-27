@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#EEEEEE"
+    android:layout_margin="5dp">
+
+    <TextView android:id="@+id/tvAmount"/>
+    <TextView android:id="@+id/tvDate"/>
+    <TextView android:id="@+id/tvCategory"/>
+    <TextView android:id="@+id/tvDescription"/>
+
+    <ImageView
+        android:id="@+id/imgReceipt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+</LinearLayout>
