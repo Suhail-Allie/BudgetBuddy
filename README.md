@@ -85,12 +85,12 @@ Some features planned for future versions include:
 
 ## 👨‍💻 Developers
 
-Developed by:
-Suhail Allie ST10455559
-Liam Hendricks ST10454685
-Mogamat Zaheer Brown ST10443195
-Cole Luke Simons ST10445286 
-Yusuf Alexander ST10456516
+- Developed by:
+- Suhail Allie ST10455559
+- Liam Hendricks ST10454685
+- Mogamat Zaheer Brown ST10443195
+- Cole Luke Simons ST10445286 
+- Yusuf Alexander ST10456516
   
 
 ---
