@@ -6,6 +6,15 @@ This project was developed using Kotlin and Room Database as part of a mobile ap
 
 ---
 
+## 🎥 Project Demonstration Video
+
+A full walkthrough and explanation of the BudgetBuddy application can be viewed below:
+
+▶️ **YouTube Demo Video:**  
+https://youtu.be/xt8bvIklIZ4
+
+---
+
 ## 📱 What BudgetBuddy Can Do
 
 - Create and manage expense categories
@@ -89,9 +98,8 @@ Some features planned for future versions include:
 - Suhail Allie ST10455559
 - Liam Hendricks ST10454685
 - Mogamat Zaheer Brown ST10443195
-- Cole Luke Simons ST10445286 
+- Cole Luke Simons ST10445286
 - Yusuf Alexander ST10456516
-  
 
 ---
 
