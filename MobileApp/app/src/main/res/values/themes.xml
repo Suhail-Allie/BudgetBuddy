@@ -1,0 +1,1 @@
+<resources><style name="Theme.BombSquad" parent="Theme.Material3.DayNight.NoActionBar"><item name="android:fontFamily">sans</item><item name="android:colorAccent">#2563EB</item><item name="android:navigationBarColor">#F4F7FB</item><item name="android:statusBarColor">#172554</item><item name="android:windowLightStatusBar">false</item></style></resources>
