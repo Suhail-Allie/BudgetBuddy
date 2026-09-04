@@ -1,8 +1,10 @@
 # 💰 BudgetBuddy
 
-BudgetBuddy is an Android application that helps users take control of their spending by tracking expenses and organizing them into categories. The goal of the app is to make personal budgeting simple, helping users understand where their money goes and make better financial decisions.
+BudgetBuddy is an Android application and responsive web application developed by **Bomb Squad**. The application helps users take control of their spending by tracking expenses and organizing them into categories.
 
-This project was developed using Kotlin and Room Database as part of a mobile application development project.
+The goal of BudgetBuddy is to make personal budgeting simple and convenient, helping users understand where their money goes and make better financial decisions.
+
+This project was developed using Kotlin, Android Studio, Room Database, HTML, CSS and JavaScript as part of a mobile and web application development project.
 
 ---
 
@@ -23,16 +25,35 @@ https://youtu.be/xt8bvIklIZ4
 - Store expense dates and times
 - Attach images to expenses when needed
 - View saved categories and expenses
-- Keep all financial records stored locally on the device
+- Keep financial records stored locally on the device
+- View budgeting information through the web application
+- Access the application using a mobile device
+- Navigate through a simple and user-friendly interface
 
 ---
 
 ## 🛠 Built With
 
+### Mobile Application
+
 - **Kotlin**
 - **Android Studio**
 - **Room Database**
 - **Android SDK**
+
+### Web Application
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Responsive Web Design**
+
+### Development Tools
+
+- **Git**
+- **GitHub**
+
+---
 
 ## 📂 Main Features
 
@@ -65,17 +86,35 @@ BudgetBuddy uses Room Database to store information locally, ensuring that user 
 
 ---
 
+## 🌐 Web Application
+
+BudgetBuddy also includes a responsive web application that provides users with access to their budgeting and expense management features through a web browser.
+
+The website is designed to work across:
+
+- Desktop computers
+- Laptops
+- Tablets
+- Mobile devices
+
+---
+
 ## 🎯 Purpose of the Project
 
-Managing money can be challenging, especially when expenses are spread across different areas of life. BudgetBuddy was created to provide a simple and convenient way for users to keep track of their spending and become more aware of their financial habits.
+Managing money can be challenging, especially when expenses are spread across different areas of life.
 
-The application focuses on ease of use while demonstrating key Android development concepts such as:
+BudgetBuddy was created to provide a simple and convenient way for users to keep track of their spending and become more aware of their financial habits.
+
+The application demonstrates key software development concepts such as:
 
 - User authentication
 - Activity navigation
 - Local database management
 - Data persistence
-- Modern Android development practices
+- Responsive web development
+- Mobile application development
+- User interface design
+- Version control using Git and GitHub
 
 ---
 
@@ -89,24 +128,26 @@ Some features planned for future versions include:
 - Dark mode support
 - Cloud backup and synchronization
 - Financial insights and analytics
+- Web and mobile data synchronization
 
 ---
 
 ## 👨‍💻 Developers
 
-- Developed by:
-- Suhail Allie ST10455559
-- Liam Hendricks ST10454685
-- Mogamat Zaheer Brown ST10443195
-- Cole Luke Simons ST10445286
-- Yusuf Alexander ST10456516
+### Bomb Squad
+
+- **Suhail Allie** — ST10455559
+- **Liam Hendricks** — ST10454685
+- **Mogamat Zaheer Brown** — ST10443195
+- **Cole Luke Simons** — ST10445286
+- **Yusuf Alexander** — ST10456516
 
 ---
 
 ## 📄 License
 
-This project was created for educational purposes and may be used as a learning resource for Android application development.
+This project was created for educational purposes and may be used as a learning resource for mobile and web application development.
 
 ---
 
-### "Track your spending today, build better financial habits tomorrow."
+### 💰 "Track your spending today, build better financial habits tomorrow."
