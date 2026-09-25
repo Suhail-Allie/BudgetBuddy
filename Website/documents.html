@@ -1,1 +1,277 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Bomb Squad | Client Management</title><link rel="stylesheet" href="css/style.css"></head><body><nav class="navbar"><a class="brand" href="index.html">BOMB SQUAD</a><div class="menu">☰</div><div class="navlinks"><a href="dashboard.html">Dashboard</a><a href="projects.html">Projects</a><a href="documents.html">Documents</a><a href="invoices.html">Invoices</a><a href="reports.html">Reports</a><a href="profile.html">Profile</a><a href="login.html">Logout</a></div></nav><main class="container"><div class="section-title"><div><h1>Documents</h1><p class="muted">Upload and manage project files.</p></div><button class="btn" data-demo-action>Upload File</button></div><div class="table-wrap"><table class="table"><tr><th>Document</th><th>Project</th><th>Uploaded By</th><th>Date</th><th>Action</th></tr><tr><td>Project Brief.pdf</td><td>Website Redesign</td><td>Client</td><td>05 Sep 2026</td><td><button class="btn" data-demo-action>Download</button></td></tr><tr><td>Requirements.docx</td><td>Mobile App</td><td>Developer</td><td>07 Sep 2026</td><td><button class="btn" data-demo-action>Download</button></td></tr><tr><td>Final Assets.zip</td><td>Client Portal</td><td>Developer</td><td>09 Sep 2026</td><td><button class="btn" data-demo-action>Download</button></td></tr></table></div></main><div class="mobile-nav"><a href="dashboard.html"><strong>⌂</strong>Home</a><a href="projects.html"><strong>▣</strong>Projects</a><a href="invoices.html"><strong>▤</strong>Invoices</a><a href="profile.html"><strong>●</strong>Profile</a></div><footer class="footer">Bomb Squad · Client Management & Project Tracking System</footer><script src="js/app.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Documents | Web App Solutions</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+    <!-- SIDEBAR -->
+    <nav class="sidebar">
+
+        <div class="sidebar-title">
+            <h2>Web App Solutions</h2>
+            <p>Project Tracking System</p>
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="dashboard.html">Dashboard</a>
+            </li>
+
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+
+            <li>
+                <a href="documents.html" class="active">
+                    Documents
+                </a>
+            </li>
+
+            <li>
+                <a href="#">Invoices</a>
+            </li>
+
+            <li>
+                <a href="#">Reports</a>
+            </li>
+
+            <li>
+                <a href="#">Profile / Settings</a>
+            </li>
+
+            <li>
+                <a href="index.html">Logout</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <div class="dashboard-header">
+
+            <div>
+                <h1>Documents</h1>
+
+                <p>
+                    View and manage project documents.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- UPLOAD SECTION -->
+
+        <section class="details-card">
+
+            <h2>Upload Document</h2>
+
+            <form id="uploadForm">
+
+                <div class="upload-grid">
+
+                    <div class="form-group">
+
+                        <label for="project">
+                            Select Project
+                        </label>
+
+                        <select id="project" required>
+
+                            <option value="">
+                                Select a project
+                            </option>
+
+                            <option>
+                                Business Website
+                            </option>
+
+                            <option>
+                                Online Store
+                            </option>
+
+                            <option>
+                                Booking System
+                            </option>
+
+                            <option>
+                                Company Portfolio
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="documentName">
+                            Document Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="documentName"
+                            placeholder="Enter document name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="documentFile">
+                            Choose File
+                        </label>
+
+                        <input
+                            type="file"
+                            id="documentFile"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <button type="submit" class="primary-btn">
+                    Upload Document
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- DOCUMENT LIST -->
+
+        <section class="details-card">
+
+            <h2>Project Documents</h2>
+
+            <div class="table-container document-table-container">
+
+                <table class="project-table">
+
+                    <thead>
+
+                        <tr>
+                            <th>Document Name</th>
+                            <th>Project</th>
+                            <th>Type</th>
+                            <th>Date Uploaded</th>
+                            <th>Action</th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Project Requirements</td>
+
+                            <td>Business Website</td>
+
+                            <td>PDF</td>
+
+                            <td>05 August 2026</td>
+
+                            <td>
+                                <button class="small-btn">
+                                    Download
+                                </button>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>Website Design</td>
+
+                            <td>Business Website</td>
+
+                            <td>PDF</td>
+
+                            <td>20 August 2026</td>
+
+                            <td>
+                                <button class="small-btn">
+                                    Download
+                                </button>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>Product List</td>
+
+                            <td>Online Store</td>
+
+                            <td>DOCX</td>
+
+                            <td>02 September 2026</td>
+
+                            <td>
+                                <button class="small-btn">
+                                    Download
+                                </button>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>Booking Requirements</td>
+
+                            <td>Booking System</td>
+
+                            <td>PDF</td>
+
+                            <td>12 September 2026</td>
+
+                            <td>
+                                <button class="small-btn">
+                                    Download
+                                </button>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

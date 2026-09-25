@@ -1,1 +1,300 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Bomb Squad | Client Management</title><link rel="stylesheet" href="css/style.css"></head><body><nav class="navbar"><a class="brand" href="index.html">BOMB SQUAD</a><div class="menu">☰</div><div class="navlinks"><a href="dashboard.html">Dashboard</a><a href="projects.html">Projects</a><a href="documents.html">Documents</a><a href="invoices.html">Invoices</a><a href="reports.html">Reports</a><a href="profile.html">Profile</a><a href="login.html">Logout</a></div></nav><main class="container"><div class="section-title"><div><h1>Website Redesign</h1><p class="muted">Acme Retail · Project #PRJ-001</p></div><span class="badge">In Progress</span></div><div class="grid"><div class="card"><h3>Project Progress</h3><div class="stat">70%</div><div class="progress"><span style="width:70%"></span></div><p class="muted">Expected completion: 20 September 2026</p></div><div class="card"><h3>Budget & Invoice</h3><p>Total Budget <b>R45,000</b></p><p>Invoiced <b>R31,500</b></p><p>Payment Status <span class="badge green">Partially Paid</span></p></div></div><div class="section-title"><h2>Milestones</h2><button class="btn" data-demo-action>+ Update Milestone</button></div><div class="card"><p>✓ Requirements approved</p><p>✓ UI/UX completed</p><p>◉ Development in progress</p><p>○ Testing</p><p>○ Deployment</p></div><div class="section-title"><h2>Documents</h2></div><div class="table-wrap"><table class="table"><tr><th>File</th><th>Type</th><th>Uploaded</th><th>Action</th></tr><tr><td>Project Brief.pdf</td><td>PDF</td><td>05 Sep 2026</td><td><button class="btn" data-demo-action>Download</button></td></tr><tr><td>UI Designs.fig</td><td>Design</td><td>07 Sep 2026</td><td><button class="btn" data-demo-action>Download</button></td></tr></table></div></main><div class="mobile-nav"><a href="dashboard.html"><strong>⌂</strong>Home</a><a href="projects.html"><strong>▣</strong>Projects</a><a href="invoices.html"><strong>▤</strong>Invoices</a><a href="profile.html"><strong>●</strong>Profile</a></div><footer class="footer">Bomb Squad · Client Management & Project Tracking System</footer><script src="js/app.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project Details | Web App Solutions</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+    <!-- SIDEBAR -->
+
+    <nav class="sidebar">
+
+        <div class="sidebar-title">
+            <h2>Web App Solutions</h2>
+            <p>Project Tracking System</p>
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="dashboard.html">Dashboard</a>
+            </li>
+
+            <li>
+                <a href="projects.html" class="active">Projects</a>
+            </li>
+
+            <li>
+                <a href="documents.html">Documents</a>
+            </li>
+
+            <li>
+                <a href="#">Invoices</a>
+            </li>
+
+            <li>
+                <a href="#">Reports</a>
+            </li>
+
+            <li>
+                <a href="#">Profile / Settings</a>
+            </li>
+
+            <li>
+                <a href="index.html">Logout</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main-content">
+
+        <div class="dashboard-header">
+
+            <div>
+
+                <a href="projects.html" class="back-link">
+                    ← Back to Projects
+                </a>
+
+                <h1>Business Website</h1>
+
+                <p>
+                    Project details and current progress.
+                </p>
+
+            </div>
+
+            <span class="status active-status">
+                Active
+            </span>
+
+        </div>
+
+
+        <!-- PROJECT INFORMATION -->
+
+        <section class="details-card">
+
+            <h2>Project Information</h2>
+
+            <div class="project-info-grid">
+
+                <div>
+                    <strong>Client</strong>
+                    <p>ABC Traders</p>
+                </div>
+
+                <div>
+                    <strong>Project Manager</strong>
+                    <p>Cole Simons</p>
+                </div>
+
+                <div>
+                    <strong>Start Date</strong>
+                    <p>01 August 2026</p>
+                </div>
+
+                <div>
+                    <strong>Due Date</strong>
+                    <p>15 October 2026</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT DESCRIPTION -->
+
+        <section class="details-card">
+
+            <h2>Project Description</h2>
+
+            <p>
+                Development of a responsive business website for ABC Traders.
+                The website will provide company information, services,
+                contact information and a professional online presence for
+                the client.
+            </p>
+
+        </section>
+
+
+        <!-- PROJECT PROGRESS -->
+
+        <section class="details-card">
+
+            <div class="details-heading">
+
+                <h2>Project Progress</h2>
+
+                <strong>75%</strong>
+
+            </div>
+
+            <div class="progress-bar large-progress">
+
+                <div class="progress-fill progress-75"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MILESTONES -->
+
+        <section class="details-card">
+
+            <h2>Project Milestones</h2>
+
+            <div class="milestone">
+
+                <div>
+                    <strong>Requirements Gathering</strong>
+                    <p>Client requirements confirmed.</p>
+                </div>
+
+                <span class="milestone-complete">
+                    Completed
+                </span>
+
+            </div>
+
+
+            <div class="milestone">
+
+                <div>
+                    <strong>Website Design</strong>
+                    <p>Website layout and interface designed.</p>
+                </div>
+
+                <span class="milestone-complete">
+                    Completed
+                </span>
+
+            </div>
+
+
+            <div class="milestone">
+
+                <div>
+                    <strong>Website Development</strong>
+                    <p>Website pages currently being developed.</p>
+                </div>
+
+                <span class="milestone-progress">
+                    In Progress
+                </span>
+
+            </div>
+
+
+            <div class="milestone">
+
+                <div>
+                    <strong>Testing & Deployment</strong>
+                    <p>Final testing and deployment of the website.</p>
+                </div>
+
+                <span class="milestone-pending">
+                    Pending
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- DOCUMENTS -->
+
+        <section class="details-card">
+
+            <div class="details-heading">
+
+                <h2>Project Documents</h2>
+
+                <a href="documents.html" class="view-btn">
+                    View All Documents
+                </a>
+
+            </div>
+
+            <div class="document-row">
+
+                <span>Project Requirements.pdf</span>
+
+                <button class="small-btn">
+                    Download
+                </button>
+
+            </div>
+
+
+            <div class="document-row">
+
+                <span>Website Design.pdf</span>
+
+                <button class="small-btn">
+                    Download
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- BUDGET & INVOICE -->
+
+        <section class="details-card">
+
+            <h2>Budget & Invoice Information</h2>
+
+            <div class="project-info-grid">
+
+                <div>
+                    <strong>Project Budget</strong>
+                    <p>R25,000.00</p>
+                </div>
+
+                <div>
+                    <strong>Invoice Number</strong>
+                    <p>INV-002</p>
+                </div>
+
+                <div>
+                    <strong>Invoice Amount</strong>
+                    <p>R12,500.00</p>
+                </div>
+
+                <div>
+                    <strong>Payment Status</strong>
+                    <p class="payment-pending">
+                        Outstanding
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
